@@ -8,7 +8,7 @@ To run the application, you need to follow these steps:
 4.  Open a terminal and navigate to the project directory.
 5.  Start the services using Docker Compose:
     Install dependencies :  `go mod tidy && go mod vendor `
-    Start Docker :  `docker-compose up -d tidy`
+    Start Docker :  `docker-compose up -d`
 6.  Start the Producer service:
     `cd producer `
     `go run main.go`
